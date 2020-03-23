@@ -6,7 +6,7 @@ import { AppComponent } from './app.component';
 import { CategoryComponent } from './category/category.component';
 import { ProductComponent } from './product/product.component';
 import { ProductListComponent } from './product-list/product-list.component';
-import { SliderComponent } from './slider/slider.component';
+import { SlideComponent } from './slide/slide.component';
 import { ProductManagerComponent } from './product-manager/product-manager.component';
 import { AboutComponent } from './about/about.component';
 import { ServicesComponent } from './services/services.component';
@@ -24,7 +24,7 @@ import { FormsModule } from '@angular/forms';
     SlideComponent,
     ProductManagerComponent,
     AboutComponent,
-    ServiceComponent,
+    ServicesComponent,
     HomepageComponent,
     NotFoundComponent,
     AddProductComponent
