@@ -1,23 +1,40 @@
-import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import { NgModule } from '@angular/core';
+
+import { AppRoutingModule } from './app-routing.module';
+import { AppComponent } from './app.component';
+import { CategoryComponent } from './category/category.component';
+import { ProductComponent } from './product/product.component';
+import { ProductListComponent } from './product-list/product-list.component';
+import { SliderComponent } from './slider/slider.component';
+import { ProductManagerComponent } from './product-manager/product-manager.component';
+import { AboutComponent } from './about/about.component';
+import { ServicesComponent } from './services/services.component';
+import { HomepageComponent } from './homepage/homepage.component';
+import { NotFoundComponent } from './not-found/not-found.component';
+import { AddProductComponent } from './add-product/add-product.component';
 import { FormsModule } from '@angular/forms';
 
-import { AppComponent } from './app.component';
-import { HelloComponent } from './hello.component';
-import { ProductListComponent } from './product-list/product-list.component';
-import { CategoryComponent } from './category/category.component';
-import { SlideComponent } from './slide/slide.component';
-import { ProductComponent } from './product/product.component';
-import { ProductService } from './product.service';
-import { ProductDetaillComponent } from './product-detaill/product-detaill.component';
-import { NotFoundComponent } from './not-found/not-found.component';
-import { ServicesService } from './services.service';
-import { ServicesComponent } from './services/services.component';
-
 @NgModule({
-  imports:      [ BrowserModule, FormsModule ],
-  declarations: [ AppComponent, HelloComponent, ProductListComponent, CategoryComponent, SlideComponent, ProductComponent, ProductDetaillComponent, NotFoundComponent, ServicesComponent ],
-  bootstrap:    [ AppComponent ],
-  providers: [ProductService, ServicesService]
+  declarations: [
+    AppComponent,
+    CategoryComponent,
+    ProductComponent,
+    ProductListComponent,
+    SlideComponent,
+    ProductManagerComponent,
+    AboutComponent,
+    ServiceComponent,
+    HomepageComponent,
+    NotFoundComponent,
+    AddProductComponent
+  ],
+  imports: [
+    BrowserModule,
+    AppRoutingModule,
+    FormsModule
+  ],
+  providers: [],
+  bootstrap: [AppComponent]
 })
 export class AppModule { }
