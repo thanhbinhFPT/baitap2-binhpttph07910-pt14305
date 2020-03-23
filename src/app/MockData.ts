@@ -1,100 +1,73 @@
-import { Product } from './product'
-export const Data : Product[] = [
-    {
-        id : 1,
-        name : "product 1",
-        price : 123,
-        desc : "Mô tả sản phẩm",
-        status: true,
-        img : "http://placehold.it/700x400",
-    },
-    {
-        id : 2,
-        name : "product 2",
-        price : 123,
-        desc : "Mô tả sản phẩm",
-        status: true,
-        img : "http://placehold.it/700x400",
-    },
-    {
-        id : 3,
-        name : "product 3",
-        price : 123,
-        desc : "Mô tả sản phẩm",
-        status: true,
-        img : "http://placehold.it/700x400",
-    },
-    {
-        id : 4,
-        name : "product 4",
-        price : 123,
-        desc : "Mô tả sản phẩm",
-        status: true,
-        img : "http://placehold.it/700x400",
-    },
-    {
-        id : 5,
-        name : "product 5",
-        price : 123,
-        desc : "Mô tả sản phẩm",
-        status: true,
-        img : "http://placehold.it/700x400",
-    },
-    {
-        id : 6,
-        name : "product 6",
-        price : 123,
-        desc : "Mô tả sản phẩm",
-        status: true,
-        img : "http://placehold.it/700x400",
-    },
-    {
-        id : 7,
-        name : "product 7",
-        price : 123,
-        desc : "Mô tả sản phẩm",
-        status: true,
-        img : "http://placehold.it/700x400",
-    },
-    {
-        id : 8,
-        name : "product 8",
-        price : 123,
-        desc : "Mô tả sản phẩm",
-        status: true,
-        img : "http://placehold.it/700x400",
-    },
-    {
-        id : 9,
-        name : "product 9",
-        price : 123,
-        desc : "Mô tả sản phẩm",
-        status: true,
-        img : "http://placehold.it/700x400",
-    },
-    {
-        id : 10,
-        name : "product 10",
-        price : 123,
-        desc : "Mô tả sản phẩm",
-        status: true,
-        img : "http://placehold.it/700x400",
-    },
-    {
-        id : 11,
-        name : "product 11",
-        price : 123,
-        desc : "Mô tả sản phẩm",
-        status: true,
-        img : "http://placehold.it/700x400",
-    },
-    {
-        id : 12,
-        name : "product 12",
-        price : 123,
-        desc : "Mô tả sản phẩm",
-        status: true,
-        img : "http://placehold.it/700x400",
-    }
-
+import { Product } from './product';
+export const Data: Product[] = [
+  {
+    "id": 84,
+    "name": "Theem",
+    "price": 14.00,
+    "image": "https://dummyimage.com/275x175/000/fff",
+    "description": "Dynamic Data Designer"
+  },
+  {
+    "id": 85,
+    "name": "Gorgeous Wooden Shirt",
+    "price": 874.00,
+    "image": "https://dummyimage.com/275x175/000/fff",
+    "description": "Senior Operations Designer"
+  },
+  {
+    "id": 86,
+    "name": "new product 9",
+    "price": 123,
+    "image": "https://dummyimage.com/275x175/000/fff",
+    "description": "National Marketing Executive"
+  },
+  {
+    "id": 87,
+    "name": "sgsaga",
+    "price": 5,
+    "image": "https://dummyimage.com/275x175/000/fff",
+    "description": "Dynamic Communications Technician"
+  },
+  {
+    "id": "88",
+    "name": "Sleek Fresh Sausages",
+    "price": "555.00",
+    "image": "https://dummyimage.com/275x175/000/fff",
+    "description": "Customer Usability Manager"
+  },
+  {
+    "id": "89",
+    "name": "Rustic Fresh Chair",
+    "price": "761.00",
+    "image": "https://dummyimage.com/275x175/000/fff",
+    "description": "International Mobility Associate"
+  },
+  {
+    "id": 90,
+    "name": "Ergonomic Rubber Towels",
+    "price": 729.00,
+ "image": "https://dummyimage.com/275x175/000/fff",
+    "description": "Dynamic Directives Agent"
+  },
+  {
+    "id": 91,
+    "name": "Refined Concrete Chair",
+    "price": 78.00,
+ "image": "https://dummyimage.com/275x175/000/fff",
+    "description": "Central Mobility Representative"
+  },
+  {
+    "id": 92,
+    "name": "Ergonomic Cotton Table",
+    "price": 844.00,
+ "image": "https://dummyimage.com/275x175/000/fff",
+    "description": "Forward Security Analyst"
+  },
+  {
+    "id": 93,
+    "name": "Handcrafted Steel Sausages",
+    "price": 754.00,
+ "image": "https://dummyimage.com/275x175/000/fff",
+    "description": "District Division Assistant"
+  }
 ]

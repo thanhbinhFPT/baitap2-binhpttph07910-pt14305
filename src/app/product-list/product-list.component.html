@@ -1,10 +1,10 @@
+<div>
+  <app-product-detail [product]="selected"></app-product-detail>
+</div>
 <div class="row">
-    <!-- <app-product class="col-lg-4 col-md-6 mb-4"></app-product>
-    <app-product class="col-lg-4 col-md-6 mb-4"></app-product>
-    <app-product class="col-lg-4 col-md-6 mb-4"></app-product> -->
     <div class="col-lg-4 col-md-6 mb-4"  *ngFor="let product of products">
       <div class="card h-100">
-        <a href="#"><img class="card-img-top" [src]=product.img alt=""></a>
+        <a href="#"><img class="card-img-top" src="{{product.image}}" alt=""></a>
         <div class="card-body">
           <h4 class="card-title">
             <a href="#">{{product.name}}</a>
@@ -20,8 +20,4 @@
 				</div>
         </div>
       </div>
-  
     </div>
-    <p *ngIf="selected">{{selected.name}}</p>
-    <p *ngIf="selected">{{selected.price}}</p>      
-    <p *ngIf="selected">{{selected.desc}}</p>  
