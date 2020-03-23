@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import{ Data } from '../MockData';
-import{ Product } from '../product'
+import{ Product } from '../Product'
 @Component({
   selector: 'app-product-manager',
   templateUrl: './product-manager.component.html',
