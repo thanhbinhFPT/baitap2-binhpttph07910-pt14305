@@ -10,14 +10,15 @@
             <a href="#">{{product.name}}</a>
           </h4>
           <h5>${{product.price}}</h5>
-          <p class="card-text">{{product.desc}}</p>
+          <p class="card-text">{{product.description}}</p>
         </div>
         <div class="card-footer">
           <button class="btn btn-primary" (click)="showDetail(product)">Chi tiết</button>
+          <br><br>
           <button class="btn btn-primary" (click)="removeItem(product.id)">Xóa</button>
           <br><br>
-					<small class="text-muted">&#9733; &#9733; &#9733; &#9733; &#9734;</small>
+					<small class="text-muted"></small>
 				</div>
         </div>
       </div>
-    </div>
+  

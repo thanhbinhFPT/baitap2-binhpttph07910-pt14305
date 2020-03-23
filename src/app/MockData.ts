@@ -24,21 +24,21 @@ export const Data: Product[] = [
   {
     "id": 87,
     "name": "sgsaga",
-    "price": 5,
+    "price": 500.00,
     "image": "https://dummyimage.com/275x175/000/fff",
     "description": "Dynamic Communications Technician"
   },
   {
-    "id": "88",
+    "id": 88,
     "name": "Sleek Fresh Sausages",
-    "price": "555.00",
+    "price": 555.00,
     "image": "https://dummyimage.com/275x175/000/fff",
     "description": "Customer Usability Manager"
   },
   {
-    "id": "89",
+    "id": 89,
     "name": "Rustic Fresh Chair",
-    "price": "761.00",
+    "price": 761.00,
     "image": "https://dummyimage.com/275x175/000/fff",
     "description": "International Mobility Associate"
   },

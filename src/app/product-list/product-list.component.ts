@@ -19,7 +19,7 @@ export class ProductListComponent implements OnInit {
   showDetail(product){
     this.selected = product;
   }
-  // getProducts(){
-  //   this.products = this.productService.getProducts();
-  // }
+  getProducts(){
+    this.products = this.productService.getProducts();
+  }
 }
