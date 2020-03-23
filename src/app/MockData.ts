@@ -6,7 +6,7 @@ export const Data : Product[] = [
         price : 123,
         desc : "Mô tả sản phẩm",
         status: true,
-        img : "http://placehold.it/700x400",
+        img : "https://dummyimage.com/700x300/000/fff",
     },
     {
         id : 2,
@@ -14,7 +14,7 @@ export const Data : Product[] = [
         price : 123,
         desc : "Mô tả sản phẩm",
         status: true,
-        img : "http://placehold.it/700x400",
+        img : "https://dummyimage.com/700x300/000/fff",
     },
     {
         id : 3,
@@ -22,7 +22,7 @@ export const Data : Product[] = [
         price : 123,
         desc : "Mô tả sản phẩm",
         status: true,
-        img : "http://placehold.it/700x400",
+        img : "https://dummyimage.com/700x300/000/fff",
     },
     {
         id : 4,
@@ -30,7 +30,7 @@ export const Data : Product[] = [
         price : 123,
         desc : "Mô tả sản phẩm",
         status: true,
-        img : "http://placehold.it/700x400",
+        img : "https://dummyimage.com/700x300/000/fff",
     },
     {
         id : 5,
@@ -38,7 +38,7 @@ export const Data : Product[] = [
         price : 123,
         desc : "Mô tả sản phẩm",
         status: true,
-        img : "http://placehold.it/700x400",
+        img : "https://dummyimage.com/700x300/000/fff",
     },
     {
         id : 6,
@@ -46,7 +46,7 @@ export const Data : Product[] = [
         price : 123,
         desc : "Mô tả sản phẩm",
         status: true,
-        img : "http://placehold.it/700x400",
+        img : "https://dummyimage.com/700x300/000/fff",
     },
     {
         id : 7,
@@ -54,7 +54,7 @@ export const Data : Product[] = [
         price : 123,
         desc : "Mô tả sản phẩm",
         status: true,
-        img : "http://placehold.it/700x400",
+        img : "https://dummyimage.com/700x300/000/fff",
     },
     {
         id : 8,
@@ -62,7 +62,7 @@ export const Data : Product[] = [
         price : 123,
         desc : "Mô tả sản phẩm",
         status: true,
-        img : "http://placehold.it/700x400",
+        img : "https://dummyimage.com/700x300/000/fff",
     },
     {
         id : 9,
@@ -70,7 +70,7 @@ export const Data : Product[] = [
         price : 123,
         desc : "Mô tả sản phẩm",
         status: true,
-        img : "http://placehold.it/700x400",
+        img : "https://dummyimage.com/700x300/000/fff",
     }
   
 ]
