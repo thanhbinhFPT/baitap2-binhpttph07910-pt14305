@@ -10,11 +10,14 @@ import { SlideComponent } from './slide/slide.component';
 import { ProductComponent } from './product/product.component';
 import { ProductService } from './product.service';
 import { ProductDetaillComponent } from './product-detaill/product-detaill.component';
+import { NotFoundComponent } from './not-found/not-found.component';
+import { ServicesService } from './services.service';
+import { ServicesComponent } from './services/services.component';
 
 @NgModule({
   imports:      [ BrowserModule, FormsModule ],
-  declarations: [ AppComponent, HelloComponent, ProductListComponent, CategoryComponent, SlideComponent, ProductComponent, ProductDetaillComponent ],
+  declarations: [ AppComponent, HelloComponent, ProductListComponent, CategoryComponent, SlideComponent, ProductComponent, ProductDetaillComponent, NotFoundComponent, ServicesComponent ],
   bootstrap:    [ AppComponent ],
-  providers: [ProductService]
+  providers: [ProductService, ServicesService]
 })
 export class AppModule { }
